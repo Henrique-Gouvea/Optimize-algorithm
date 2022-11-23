@@ -1,4 +1,4 @@
-def study_schedule(permanence_period, target_time) -> int:
+def study_schedule(permanence_period, target_time: int) -> int:
     try:
         quantity_students: int = 0
         for init_time, end_time in permanence_period:
